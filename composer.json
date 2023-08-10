@@ -1,0 +1,29 @@
+{
+    "name": "ramiz/laravelpwa",
+    "description": "Using this package user can easly create pwa app",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ramiz\\Laravelpwa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramiz Belim"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ramiz\\Laravelpwa\\LaravelPwaServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPwa": "Ramiz\\Laravelpwa\\LaravelPwa"
+            }
+        }
+    }
+
+}
